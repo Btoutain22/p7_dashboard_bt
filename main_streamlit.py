@@ -8,7 +8,8 @@ from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 
 # Data
-api_url = "https://interfacescoring.bernardtoutain.repl.co"
+#api_url = "https://interfacescoring.bernardtoutain.repl.co"
+api_url = "https://share.streamlit.io/btoutain22/model_final_scoring/main/main.py"
 
 df = pd.read_csv('test_df2.csv')
 df.drop(['Unnamed: 0', 'TARGET'], axis=1, inplace=True)
