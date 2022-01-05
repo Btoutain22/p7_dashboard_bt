@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # Data
 api_url = "https://interfacescoring.bernardtoutain.repl.co"
 
-df = pd.read_csv('test_df.csv')
+df = pd.read_csv('test_df2.csv')
 df.drop(['Unnamed: 0', 'TARGET'], axis=1, inplace=True)
 
 info_client = pd.read_csv('info_client.csv')
